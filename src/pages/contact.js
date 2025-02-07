@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-// import './contact.css'
+
 const Contact = () => {
   return (
     <StyledWrapper>
@@ -20,7 +20,6 @@ const Contact = () => {
     </StyledWrapper>
   );
 }
-
 const StyledWrapper = styled.div`
   .return {
     width: 400px;

@@ -8,20 +8,14 @@ body{
   color: #2e2e2e;
   border: 1px solid #000000;
   border-radius: 2cqw;
-  /* display: flex; */
-  /* justify-content:left; */
-  padding: 10px; /* Ajoute de l'espace interne */
-  font-size: 16px; /* Ajuste la taille de la police si nécessaire */
-  position: absolute; /* Or fixed if you want it to stay on top when scrolling */
+  padding: 10px; 
+  font-size: 16px; 
+  position: absolute; 
   top: 0;
   left: 0;
   margin-top: 5%;
-  /* width: 400vw; */
   max-width: 100%;
   height: 30vh;
-  /* min-width: 100px; /* Minimum width */
-  /* max-width: 100%; Maximum width */ 
-  /* min-height: auto; */
   overflow-y:scroll !important;
 }
 
@@ -61,25 +55,19 @@ body{
   top: 10%;
   left: 10%;
   bottom: 10px;
-  /* right: 10px; */
-   /* left: 10px; */
-  /* margin-top: -17%;  */
-  /* position:relative; */
-  /* justify-content: flex-end; */
   display: flex;
-  /* justify-content: end;  Distribute buttons evenly */
-  align-items:center;  /* Center buttons vertically */
-  gap: 15px;  /* Space between buttons */
+  align-items:center;  
+  gap: 15px; 
 }
 .reaction-buttons button {
-  background-color:transparent;   /* Light background */
+  background-color:transparent;   
   border: 1px solid transparent;
-  border-radius: 30px;         /* Rounded corners */
-  padding: 10px 20px;          /* Padding inside buttons */
+  border-radius: 30px;       
+  padding: 10px 20px;          
   display: flex;
-  align-items: center;         /* Center icon and text vertically */
-  gap: 8px;                    /* Space between icon and text */
-  cursor: pointer;             /* Pointer on hover */
+  align-items: center;         
+  gap: 8px;                   
+  cursor: pointer;             
   font-size: 16px;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
@@ -103,39 +91,35 @@ body{
 }
 .pdf-class {
   position: relative !important;
-  /* right: 959px;  */
-  /* margin-top: 9.5%;  */
-  /* top: 10%;  */
+
   display: flex;
   justify-content: center;
-  align-items: center; /* Center content vertically */
+  align-items: center; 
   background-color: transparent;
   border-radius: 30px;
   padding: 10px 20px;
   font-size: 16px;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  width: 150px; /* Fixed width for better control */
-  cursor: pointer; /* Indicates interactivity */
+  width: 150px; 
+  cursor: pointer; 
 }
 
-/* Hover Effects */
+
 .pdf-class:hover {
-  background-color:transparent; /* Light hover effect */
-  transform: translateY(-3px); /* Slight lift on hover */
+  background-color:transparent;
+  transform: translateY(-3px); 
 }
 
-/* Active (Click) Effects */
 .pdf-class:active {
   transform: translateY(1px);
 }
 
-/* SVG Icon Styling */
 .pdf-class button svg {
   font-size: 20px;
   transition: transform 0.3s ease;
 }
 
-/* SVG Hover Effect */
+
 .pdf-class button:hover svg {
   transform: scale(1.2);
 }
@@ -149,14 +133,14 @@ body{
 }
 
 .buttoms button {
-  background-color:transparent;   /* Light background */
-  border: 1px solid transparent;      /* Border */
-  border-radius: 30px;         /* Rounded corners */
-  padding: 10px;          /* Padding inside buttons */
+  background-color:transparent;   
+  border: 1px solid transparent;     
+  border-radius: 30px;        
+  padding: 10px;        
   display: flex;
-  align-items: center;         /* Center icon and text vertically */
-  gap: 8px;                    /* Space between icon and text */
-  cursor: pointer;             /* Pointer on hover */
+  align-items: center;         
+  gap: 8px;                   
+  cursor: pointer;             
   font-size: 16px;
   transition: background-color 0.3s ease, transform 0.3s ease;
   

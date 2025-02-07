@@ -1,12 +1,3 @@
-/* body {
-  background-color: #f19ad3;
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-} */
 .body {
   background-image: url("pen.jpg");
   background-size: 100%;
@@ -20,9 +11,7 @@
   position: absolute;
   top: 0;
 }
-/* .upload-icon{
-  background-color: transparent;
-} */
+
 form {
   background-color:#2e2e2e;
   padding: 20px 30px;
@@ -107,9 +96,7 @@ button {
   background-color: #989898;
   
 }
-/* .intr:active {
-  transform: scale(0.9);
-} */
+
 .intr [type="button"] {
   background-color: #fbcff3;
   color: #2e2e2e;

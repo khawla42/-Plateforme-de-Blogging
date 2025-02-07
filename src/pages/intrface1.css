@@ -19,14 +19,9 @@ body{
   position: relative;
 
   filter: brightness(1.5); 
-  image-rendering: crisp-edges; /* Idéal pour les images pixelisées */
-  /* display: grid; */
-  /* grid-template-columns: repeat(2, 1fr);  */
-  /* gap: 80px; */
-  /* align-items: stretch; */
+  image-rendering: crisp-edges; 
   justify-content: center;
-  /* max-width: 100%; */
-  /* margin: 0 auto; */
+  
   padding: 0 10px
 }
 
@@ -60,8 +55,6 @@ body{
   color: #fff;
   text-Align: center;
   padding: 10%;
-  /* bottom: -80%; */
-  /* margin-Top: 100vh ; */
   border-Top: 2px solid #f19ad3;
   width:100vw;
   height: 400px;
@@ -71,13 +64,10 @@ body{
 .linke{
   position: relative;
   margin-top: 5%;
-  /* color: #ff39c7; */
 }
 .programmed{
   position: relative;
-  /* margin-top: -20px; */
   color: #ff9dd9;
-  /* right: %; */
 }
 .articlesSection{
   position: relative !important;
@@ -95,21 +85,19 @@ body{
 }
  .articlesSection .articles {
   position: relative;
-  padding: 10px;      /* Use pixels for padding instead of percentage for consistent spacing */
-  border-radius: 8px;  /* Increased border-radius for a softer look */
+  padding: 10px;     
+  border-radius: 8px; 
   border-top: 2px solid #ff6fe7;
-  width: 40%;        /* Corrected width from 30px to 300px for better visibility */
+  width: 40%;       
   height: 300px;        
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Added a light shadow for depth */
-  background-color: #373737;  /* Added background color for contrast */
-  transition: transform 0.3s ease;  /* Smooth hover effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  background-color: #373737;  
+  transition: transform 0.3s ease; 
   overflow: hidden;
   display: grid;
-  /* grid-template-columns: repeat(2, 1fr);  */
   gap: 80px;
   color: #ff57bf;
   margin: 5px;
-  /* justify-content: center; */
   margin-top: 3%;
  
 }
@@ -123,7 +111,6 @@ body{
 .textee{
   color: #ffa7ec;
   position: relative;
-  /* padding: 50px; */
   left: 10px;
   text-align: start;
   font-size: 18px;        

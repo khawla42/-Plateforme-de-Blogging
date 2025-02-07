@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import './intrface1.css';
-// import contact from './pages/layoute';
+
 
 const BlogList = () => {
   const blogs = useSelector((state) => state.blogs.blogs);

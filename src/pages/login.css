@@ -1,11 +1,11 @@
-/* Réinitialisation de base */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Corps de page et image de fond */
+
 body,
 html {
   width: 100%;
@@ -15,7 +15,7 @@ html {
 }
 
 .full {
-  background-image: url("mor.jpg"); /* Remplacez par le chemin de votre image */
+  background-image: url("mor.jpg"); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,7 +28,6 @@ html {
   top: 0;
 }
 
-/* Conteneur central (ajout de la classe "mam" pour centrer le formulaire si besoin) */
 .mam {
   display: flex;
   justify-content: center;
@@ -36,7 +35,7 @@ html {
   width: 100%;
 }
 
-/* Formulaire stylisé à la manière Uiverse.io */
+
 .form {
   display: flex;
   flex-direction: column;
@@ -52,7 +51,6 @@ html {
   background: linear-gradient(45deg, #000000, #f19ad3);
 }
 
-/* Style du titre de connexion / inscription */
 .signup {
   font-size: 1.8rem;
   color: white;
@@ -60,7 +58,7 @@ html {
   text-align: center;
 }
 
-/* Styles pour les labels */
+
 .label {
   font-size: 14px;
   color: white;
@@ -69,7 +67,7 @@ html {
   margin-top: 10px;
 }
 
-/* Style général pour les inputs */
+
 .input {
   padding: 12px;
   border: none;
@@ -80,12 +78,12 @@ html {
   outline: none;
 }
 
-/* Optionnel : ajout d'un effet focus sur les inputs */
+
 .input:focus {
   box-shadow: 0 0 5px rgba(36, 37, 39, 0.5);
 }
 
-/* Bouton principal */
+
 .buttonne {
   display: inline-block;
   padding: 15px 30px;
@@ -119,7 +117,7 @@ html {
   transform: scale(0.9);
 }
 
-/* Utilitaires */
+
 .text-white {
   color: white;
   text-align: center;
@@ -129,7 +127,7 @@ html {
   margin-top: 1rem;
 }
 
-/* Optionnel : style pour le bouton Google si vous souhaitez l'ajouter ultérieurement */
+
 .btn {
   margin-top: 10px;
   width: 100%;

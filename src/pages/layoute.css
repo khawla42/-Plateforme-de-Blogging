@@ -1,15 +1,14 @@
-/* General styles for the entire container */
+
 .home-container {
-  background-color: transparent; /* Light pink background */
-  min-height: 100vh; /* Full viewport height */
-  min-width: 100vw; /* Full viewport width */
+  background-color: transparent;
+  min-height: 100vh; 
+  min-width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 5rem; /* Add space for the fixed navigation bar */
+  padding-top: 5rem; 
   font-family: Arial, sans-serif;
-  box-sizing: border-box; /* Include padding in width/height calculation */
-  /* background-image: url("mor.jpg"); Remplacez par le chemin de votre image */
+  box-sizing: border-box; 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,34 +22,31 @@
   
 }
 
-/* Fixed Navigation bar styling */
 nav {
-  position: fixed; /* Fix the navigation at the top of the page */
+  position: fixed; 
   top: 0;
   left: 0;
-  width: 100%; /* Take up the full width of the viewport */
+  width: 100%; 
   display: flex;
-  justify-content: center; /* Center the navigation items */
-  gap: 2rem; /* Increase spacing between links */
-  /* background-color: #2c2c2c; Black background for the nav bar */
+  justify-content: center; 
+  gap: 2rem; 
   padding: 1rem 2rem;
-  border-radius: 0 0 12px 12px; /* Round bottom corners only */
+  border-radius: 0 0 12px 12px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  z-index: 1000; /* Ensure the nav bar stays above all other content */
+  z-index: 1000;
   background-color: transparent;
 
 }
 
-/* List items styling */
+
 nav li {
   list-style-type: none;
   
 }
 
-/* Links styling */
 nav li a {
   text-decoration: none;
-  color: #f19ad3; /* Light pink text */
+  color: #f19ad3; 
   font-size: 1rem;
   font-weight: bold;
   padding: 0.5rem 1rem;
@@ -59,37 +55,36 @@ nav li a {
 }
 
 nav li a:hover {
-  /* background-color: #ff80b6; Vibrant pink on hover */
-  color: #828282; /* Black text */
-  /* box-shadow: 0px 4px 8px rgba(255, 128, 182, 0.5); Soft pink glow */
+  
+  color: #828282; 
 }
 
 /* Outlet container */
 .home-container > .outlet {
   margin-top: 2rem;
   padding: 2rem;
-  background-color: #fff; /* White background for the outlet */
-  border: 1px solid #f5c2e0; /* Light pink border */
+  background-color: #fff; 
+  border: 1px solid #f5c2e0;
   border-radius: 12px;
-  width: 90%; /* Take up most of the page width */
-  max-width: 1200px; /* Limit the maximum width */
+  width: 90%; 
+  max-width: 1200px; 
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   nav {
-    flex-direction: column; /* Stack navigation items on smaller screens */
+    flex-direction: column; 
     align-items: center;
-    gap: 1rem; /* Reduce spacing between links */
-    padding: 1rem; /* Adjust padding for smaller screens */
+    gap: 1rem;
+    padding: 1rem; 
   }
 
   .home-container > .outlet {
-    padding: 1.5rem; /* Adjust padding for smaller screens */
-    width: 95%; /* Make the outlet container narrower */
+    padding: 1.5rem; 
+    width: 95%; 
   }
 }

@@ -72,7 +72,7 @@ const blogSlice = createSlice({
       const blog = state.blogs.find((blog) => blog.id === id);
       if (blog) {
         if (!blog.comments) {
-          blog.comments = [];  // Ensure comments is initialized if missing
+          blog.comments = [];  
         }
         blog.comments.push(comment);
       }
@@ -80,7 +80,7 @@ const blogSlice = createSlice({
     addBlog: (state, action) => {
       state.blogs.push({
         ...action.payload,
-        comments: action.payload.comments || [],  // Ensure new blogs have comments initialized
+        comments: action.payload.comments || [], 
       });
     },
     clearBlogs: (state) => {
