@@ -1,0 +1,222 @@
+
+body{
+  background-color:#2e2e2e;
+}
+.forme-text {
+  padding: 30px;
+  background-color:#feb8e3;
+  color: #2e2e2e;
+  border: 1px solid #000000;
+  border-radius: 2cqw;
+  /* display: flex; */
+  /* justify-content:left; */
+  padding: 10px; /* Ajoute de l'espace interne */
+  font-size: 16px; /* Ajuste la taille de la police si nécessaire */
+  position: absolute; /* Or fixed if you want it to stay on top when scrolling */
+  top: 0;
+  left: 0;
+  margin-top: 5%;
+  /* width: 400vw; */
+  max-width: 100%;
+  height: 30vh;
+  /* min-width: 100px; /* Minimum width */
+  /* max-width: 100%; Maximum width */ 
+  /* min-height: auto; */
+  overflow-y:scroll !important;
+}
+
+
+.edit-mode{
+  background-color: #151515;
+  width: 500px;
+  height: 500px;
+}
+.edit-input[type="text"]{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ff80d9;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: #000000;
+  color: #ffa7c4;
+}
+.edit-textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ff80d9;
+  border-radius: 4px;
+  background-color: #070707;
+  resize: none;
+  color: #ffa7c4;
+}
+.save-button{
+  background-color: #ffa7c4;
+}
+.reaction-buttons{
+  position: relative;
+  top: 10%;
+  left: 10%;
+  bottom: 10px;
+  /* right: 10px; */
+   /* left: 10px; */
+  /* margin-top: -17%;  */
+  /* position:relative; */
+  /* justify-content: flex-end; */
+  display: flex;
+  /* justify-content: end;  Distribute buttons evenly */
+  align-items:center;  /* Center buttons vertically */
+  gap: 15px;  /* Space between buttons */
+}
+.reaction-buttons button {
+  background-color:transparent;   /* Light background */
+  border: 1px solid transparent;
+  border-radius: 30px;         /* Rounded corners */
+  padding: 10px 20px;          /* Padding inside buttons */
+  display: flex;
+  align-items: center;         /* Center icon and text vertically */
+  gap: 8px;                    /* Space between icon and text */
+  cursor: pointer;             /* Pointer on hover */
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.reaction-buttons button:hover {
+  background-color: transparent;
+  transform: translateY(-2px);
+}
+
+.reaction-buttons button:active {
+  transform: translateY(1px);
+}
+
+.reaction-buttons button svg {
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.reaction-buttons button:hover svg {
+  transform: scale(1.2);
+}
+.pdf-class {
+  position: relative !important;
+  /* right: 959px;  */
+  /* margin-top: 9.5%;  */
+  /* top: 10%;  */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center content vertically */
+  background-color: transparent;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 150px; /* Fixed width for better control */
+  cursor: pointer; /* Indicates interactivity */
+}
+
+/* Hover Effects */
+.pdf-class:hover {
+  background-color:transparent; /* Light hover effect */
+  transform: translateY(-3px); /* Slight lift on hover */
+}
+
+/* Active (Click) Effects */
+.pdf-class:active {
+  transform: translateY(1px);
+}
+
+/* SVG Icon Styling */
+.pdf-class button svg {
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+/* SVG Hover Effect */
+.pdf-class button:hover svg {
+  transform: scale(1.2);
+}
+.buttoms{
+
+  display: flex;
+  position: absolute;
+  left: 2%;
+  top: 40%;
+  
+}
+
+.buttoms button {
+  background-color:transparent;   /* Light background */
+  border: 1px solid transparent;      /* Border */
+  border-radius: 30px;         /* Rounded corners */
+  padding: 10px;          /* Padding inside buttons */
+  display: flex;
+  align-items: center;         /* Center icon and text vertically */
+  gap: 8px;                    /* Space between icon and text */
+  cursor: pointer;             /* Pointer on hover */
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  
+}
+
+.buttoms button:hover {
+  background-color: transparent;
+  transform: translateY(-2px);
+}
+
+.buttoms button:active {
+  transform: translateY(1px);
+}
+
+.buttoms button svg {
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.buttoms button:hover svg {
+  transform: scale(1.2);
+}
+.cmentaire {
+position: absolute !important;
+left:1%; 
+top: 60%;
+height: auto;
+width: auto;
+color: #ffa7c4;
+margin-top: -4%;
+}
+.cmentaire div:nth-last-of-type(1){
+
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  gap: 20px;
+}
+.input-2[type="text"]{
+  background-color: #ffa7c4;
+  color: #2e2e2e;
+  padding: 10px;
+  position: absolute;
+  &&::placeholder{
+    color: rgb(0, 0, 0);
+  }
+  width: 200px;
+  
+}
+.addc{
+  position: absolute;
+  right: -190px; 
+  margin-top: 25%;
+  background-color: transparent;
+  margin-top: -2%;
+}
+.returnc{
+  position: absolute;
+  right: 2px; 
+  margin-top: 50%;
+  background-color: transparent;
+  margin-top: 10%;
+}
