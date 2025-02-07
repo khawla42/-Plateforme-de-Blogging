@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/-Plateforme-de-Blogging/static/css/main.3ed6128b.css",
+    "main.js": "/-Plateforme-de-Blogging/static/js/main.a2a5a770.js",
+    "static/js/239.f307e1f1.chunk.js": "/-Plateforme-de-Blogging/static/js/239.f307e1f1.chunk.js",
+    "static/js/213.017e11a6.chunk.js": "/-Plateforme-de-Blogging/static/js/213.017e11a6.chunk.js",
+    "static/js/455.c09d9360.chunk.js": "/-Plateforme-de-Blogging/static/js/455.c09d9360.chunk.js",
+    "static/media/mor.jpg": "/-Plateforme-de-Blogging/static/media/mor.5e40d88d14aefdc1b562.jpg",
+    "static/media/pen.jpg": "/-Plateforme-de-Blogging/static/media/pen.54a9c941d185a1c845ae.jpg",
+    "static/media/image.jpg": "/-Plateforme-de-Blogging/static/media/image.e8b4c5e62b3b807743cf.jpg",
+    "index.html": "/-Plateforme-de-Blogging/index.html",
+    "main.3ed6128b.css.map": "/-Plateforme-de-Blogging/static/css/main.3ed6128b.css.map",
+    "main.a2a5a770.js.map": "/-Plateforme-de-Blogging/static/js/main.a2a5a770.js.map",
+    "239.f307e1f1.chunk.js.map": "/-Plateforme-de-Blogging/static/js/239.f307e1f1.chunk.js.map",
+    "213.017e11a6.chunk.js.map": "/-Plateforme-de-Blogging/static/js/213.017e11a6.chunk.js.map",
+    "455.c09d9360.chunk.js.map": "/-Plateforme-de-Blogging/static/js/455.c09d9360.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ed6128b.css",
+    "static/js/main.a2a5a770.js"
+  ]
+}
